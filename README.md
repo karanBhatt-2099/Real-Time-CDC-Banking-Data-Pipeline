@@ -22,12 +22,6 @@ It simulates customer, account, and transaction data, streams changes in real ti
 
 ---
 
-#  Architecture
-
-<p align="center">
-  <img src="./architecture.png" width="100%">
-</p>
-
 ## Pipeline Flow
 
 ```text
