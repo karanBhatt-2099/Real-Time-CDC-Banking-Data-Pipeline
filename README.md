@@ -18,8 +18,6 @@ This project demonstrates an **end-to-end Modern Data Stack pipeline for a Banki
 
 It simulates customer, account, and transaction data, streams changes in real time, transforms them into analytics-ready models, and visualizes insights following industry best practices in **CDC, Data Warehousing, DBT, Airflow, and CI/CD**.
 
-> Think of it as a real-world banking data ecosystem built with modern data engineering tools.
-
 ---
 
 ## Pipeline Flow
