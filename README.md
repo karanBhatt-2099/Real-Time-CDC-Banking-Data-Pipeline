@@ -1,6 +1,5 @@
-# 🏦 Banking Modern Data Stack
+#  Banking Modern Data Stack
 
-![Architecture](./architecture.png)
 
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
@@ -13,7 +12,7 @@
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project demonstrates an **end-to-end Modern Data Stack pipeline for a Banking domain**.
 
@@ -23,7 +22,7 @@ It simulates customer, account, and transaction data, streams changes in real ti
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 <p align="center">
   <img src="./architecture.png" width="100%">
@@ -57,7 +56,7 @@ Power BI Dashboard
 
 ---
 
-# ⚡ Tech Stack
+#  Tech Stack
 
 | Layer | Technology |
 |---------|------------|
@@ -77,16 +76,16 @@ Power BI Dashboard
 
 # ✅ Key Features
 
-- ✅ PostgreSQL OLTP source system with ACID guarantees
-- ✅ Synthetic banking dataset (customers, accounts, transactions)
-- ✅ Change Data Capture (CDC) using Kafka + Debezium
-- ✅ Bronze → Silver → Gold architecture in Snowflake
-- ✅ DBT staging, dimensions, facts, and snapshots
-- ✅ SCD Type-2 history tracking
-- ✅ Airflow DAG orchestration
-- ✅ Dockerized infrastructure
-- ✅ Automated CI/CD using GitHub Actions
-- ✅ Analytics-ready business models
+-  PostgreSQL OLTP source system with ACID guarantees
+-  Synthetic banking dataset (customers, accounts, transactions)
+-  Change Data Capture (CDC) using Kafka + Debezium
+-  Bronze → Silver → Gold architecture in Snowflake
+-  DBT staging, dimensions, facts, and snapshots
+-  SCD Type-2 history tracking
+-  Airflow DAG orchestration
+-  Dockerized infrastructure
+-  Automated CI/CD using GitHub Actions
+-  Analytics-ready business models
 
 ---
 
@@ -217,25 +216,25 @@ SCD Type-2 history tracking for accounts and customers.
 
 # 📊 Final Deliverables
 
-✅ End-to-end CDC pipeline from PostgreSQL → Snowflake
+ End-to-end CDC pipeline from PostgreSQL → Snowflake
 
-✅ Bronze → Silver → Gold warehouse architecture
+ Bronze → Silver → Gold warehouse architecture
 
-✅ DBT models (Facts, Dimensions, Snapshots)
+ DBT models (Facts, Dimensions, Snapshots)
 
-✅ Airflow orchestration
+ Airflow orchestration
 
-✅ Synthetic banking dataset
+ Synthetic banking dataset
 
-✅ Dockerized environment
+ Dockerized environment
 
-✅ CI/CD workflows with GitHub Actions
+ CI/CD workflows with GitHub Actions
 
-✅ Power BI dashboards for analytics
+ Power BI dashboards for analytics
 
 ---
 
-# 🚀 Modern Data Stack Flow
+#  Modern Data Stack Flow
 
 ```text
 PostgreSQL
